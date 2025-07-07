@@ -4,10 +4,12 @@ export function Button() {
   function entrar() {
     console.log("Entrou com sucesso");
   }
-  
+
   return (
-    <div >
-      <button className={styles.button} onClick={entrar}>Entrar</button>
+    <div>
+      <button className={styles.button} onClick={entrar}>
+        Entrar
+      </button>
     </div>
   );
 }

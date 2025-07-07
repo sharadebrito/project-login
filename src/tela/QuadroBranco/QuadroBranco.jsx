@@ -9,20 +9,19 @@ export function QuadroBranco() {
       <div className={styles.formulario}>
         <Logo />
         <Input />
-
         <Button />
-
         <a href="#" className={styles.criarConta}>
           Criar uma nova conta
         </a>
-
         <div className={styles.infoContainer}>
-         
           <p className={styles.infoText}>
-  Uma única conta para PsicoManager, PsicoMarketing e PsicoClub. 
-  Saiba mais <a href="#" className={styles.saibaMais}>aqui</a>.
-</p>
-         
+            Uma única conta para PsicoManager, PsicoMarketing e PsicoClub. Saiba
+            mais{" "}
+            <a href="#" className={styles.saibaMais}>
+              aqui
+            </a>
+            .
+          </p>
         </div>
       </div>
     </div>

@@ -13,8 +13,8 @@
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 500px;     /* largura fixa */
-  height: 534px;    /* altura fixa */
+  width: 500px; /* largura fixa */
+  height: 534px; /* altura fixa */
   border-radius: 16px;
   padding: 50px 24px;
   gap: 24px;

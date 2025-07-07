@@ -20,7 +20,7 @@ p {
 input {
   display: flex;
   flex-direction: column;
-  border: #D3D3D3 1px solid;
+  border: #d3d3d3 1px solid;
   width: 452px;
   height: 35px;
   border-radius: 4px;
@@ -52,10 +52,9 @@ a {
   color: #0092cc;
 }
 
-
 .senhaContainer {
   display: flex;
-  justify-content: flex-end;  /* Empurra o link pra direita */
+  justify-content: flex-end; /* Empurra o link pra direita */
   width: 100%;
 }
 
@@ -72,4 +71,24 @@ a {
   gap: 10px;
   width: 452;
   height: 250;
+}
+
+.passwordWrapper {
+  position: relative;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px; /* espaço interno */
+  padding-right: 40px; /* espaço pro ícone */
+  box-sizing: border-box;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
 }

@@ -1,0 +1,14 @@
+.button {
+  background-color: #6639b0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  width: 452px;  /* largura fixa igual Figma */
+  height: 50px;  /* altura fixa igual Figma */
+  display: flex;         /* centraliza conteúdo */
+  align-items: center;   /* vertical */
+  justify-content: center; /* horizontal */
+  cursor: pointer;
+  outline: none;
+}

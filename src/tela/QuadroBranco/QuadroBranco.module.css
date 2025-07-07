@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 500px;     /* largura fixa */
+  height: 534px;    /* altura fixa */
+  border-radius: 16px;
+  padding: 50px 24px;
+  gap: 24px;
+  background-color: white;
+}
+
+.criarConta {
+  all: unset;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  color: #0092cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 0;
+}
+
+.infoText {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.saibaMais {
+  color: #0092cc;
+  text-decoration: underline;
+  font-size: 16px;
+  display: inline; /* Garante que fique na mesma linha */
+}

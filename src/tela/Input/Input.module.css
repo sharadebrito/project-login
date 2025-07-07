@@ -1,0 +1,75 @@
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+p {
+  font-family: Asap;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  border: #D3D3D3 1px solid;
+  width: 452px;
+  height: 35px;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  gap: 24px;
+  border-width: 1px;
+}
+
+a {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 133px;
+  height: 24px;
+  font-family: Asap;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  margin-top: 8px;
+  color: #0092cc;
+}
+
+
+.senhaContainer {
+  display: flex;
+  justify-content: flex-end;  /* Empurra o link pra direita */
+  width: 100%;
+}
+
+.senha {
+  font-family: Asap;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #0092cc;
+}
+
+.input {
+  gap: 10px;
+  width: 452;
+  height: 250;
+}

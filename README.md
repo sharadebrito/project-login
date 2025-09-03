@@ -1,8 +1,8 @@
-## 📌 Project Login  
+#### 📌 Project Login  
 
 Projeto de tela de login desenvolvido em **React + Vite**, inspirado e clonado do site **PsicoManager**.  
 
-### ⚙️ Tecnologias utilizadas  
+#### ⚙️ Tecnologias utilizadas  
 - ⚛️ **React**  
 - ⚡ **Vite**  
 - 🟨 **JavaScript**  
@@ -11,11 +11,11 @@ Projeto de tela de login desenvolvido em **React + Vite**, inspirado e clonado d
 
 ---
 
-## 📌 Project Login (EN)  
+#### 📌 Project Login (EN)  
 
 Login screen project built with **React + Vite**, inspired and cloned from **PsicoManager** website.  
 
-### ⚙️ Technologies used  
+##### ⚙️ Technologies used  
 - ⚛️ **React**  
 - ⚡ **Vite**  
 - 🟨 **JavaScript**  
